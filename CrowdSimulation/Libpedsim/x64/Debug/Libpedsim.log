@@ -1,0 +1,53 @@
+﻿Build started 2018-03-05 20:27:35.
+     1>Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\Libpedsim.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\ped_model.cpp
+         ped_model.cpp
+     1>c:\users\nego9578\downloads\crowdsimulation4\libpedsim\src\ped_model.h(127): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\nego9578\downloads\crowdsimulation4\libpedsim\src\ped_model.h(128): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\ped_model.cpp(54): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\ped_model.cpp(55): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\ped_model.cpp(93): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\ped_model.cpp(142): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\ped_model.cpp(143): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\ped_model.cpp(145): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(147): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(168): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\ped_model.cpp(169): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\ped_model.cpp(171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(172): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(394): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(395): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(396): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(412): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\ped_model.cpp(413): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\ped_model.cpp(423): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\ped_model.cpp(436): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\ped_model.cpp(437): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\ped_model.cpp(445): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(446): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(447): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\nego9578\Downloads\CrowdSimulation4\x64\Debug\Libpedsim.lib" /NOLOGO /MACHINE:X64 x64\Debug\cuda_agent.cu.obj
+         x64\Debug\cuda_testkernel.cu.obj
+         x64\Debug\heatmap_seq.obj
+         x64\Debug\ped_agent.obj
+         x64\Debug\ped_model.obj
+         x64\Debug\ped_vector.obj
+         x64\Debug\ped_waypoint.obj
+         Libpedsim.vcxproj -> C:\Users\nego9578\Downloads\CrowdSimulation4\x64\Debug\Libpedsim.lib
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\nego9578\Downloads\CrowdSimulation4\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\nego9578\Downloads\CrowdSimulation4\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\nego9578\Downloads\CrowdSimulation4\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\Libpedsim.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12

@@ -1,0 +1,28 @@
+﻿Build started 2018-02-15 14:16:51.
+     1>Project "C:\Users\jeol8854\Downloads\group-A4-Olsson-Gouda-Hiort\CrowdSimulation3.1\Libpedsim\Libpedsim.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt src\ped_model.cpp
+         ped_model.cpp
+     1>c:\users\jeol8854\downloads\group-a4-olsson-gouda-hiort\crowdsimulation3.1\libpedsim\src\ped_model.h(97): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jeol8854\downloads\group-a4-olsson-gouda-hiort\crowdsimulation3.1\libpedsim\src\ped_model.h(98): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\ped_model.cpp(52): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\ped_model.cpp(53): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>src\ped_model.cpp(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\ped_model.cpp(113): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\ped_model.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(118): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(280): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(281): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(282): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(300): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\ped_model.cpp(301): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>src\ped_model.cpp(334): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(335): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(336): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\ped_model.cpp(649): error C3048: Expression following '#pragma omp atomic' has improper form
+     1>Done Building Project "C:\Users\jeol8854\Downloads\group-A4-Olsson-Gouda-Hiort\CrowdSimulation3.1\Libpedsim\Libpedsim.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.53

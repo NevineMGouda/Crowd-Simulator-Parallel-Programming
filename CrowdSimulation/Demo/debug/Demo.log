@@ -1,0 +1,17 @@
+﻿Build started 2018-03-05 20:27:36.
+     1>Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Demo\Demo.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\Demo\\Demo.exe" /NOLOGO /LIBPATH:..\x64\Debug /LIBPATH:"C:\Progra~1\NVIDIA~2\CUDA\v7.5\lib\x64" /LIBPATH:C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib libpedsim.lib Qt5PlatformSupport.lib "C:\Progra~1\NVIDIA~2\CUDA\v7.5\lib\x64\cudart.lib" C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5OpenGLd.lib C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"debug\Demo\Demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" debug\MainWindow.obj
+         debug\ParseScenario.obj
+         debug\PedSimulation.obj
+         debug\ViewAgent.obj
+         debug\main.obj
+         debug\moc_ParseScenario.obj
+         debug\moc_PedSimulation.obj
+            Creating library debug\Demo\\Demo.lib and object debug\Demo\\Demo.exp
+         Demo.vcxproj -> C:\Users\nego9578\Downloads\CrowdSimulation4\Demo\debug\Demo\Demo.exe
+     1>Done Building Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Demo\Demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45

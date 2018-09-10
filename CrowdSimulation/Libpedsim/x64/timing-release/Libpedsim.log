@@ -1,0 +1,36 @@
+﻿Build started 2018-03-05 20:42:10.
+     1>Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\Libpedsim.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\src\cuda_agent.cu 
+       CudaBuild:
+         Compiling CUDA source file src\cuda_agent.cu...
+         cmd.exe /C "C:\Users\nego9578\AppData\Local\Temp\tmpe0724ed76f5f43cba3d063163335dfc0.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\timing-release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\timing-release\cuda_agent.cu.obj "C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\src\cuda_agent.cu"
+         
+         C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\timing-release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\timing-release\cuda_agent.cu.obj "C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\src\cuda_agent.cu" 
+     1>C:/Users/nego9578/Downloads/CrowdSimulation4/Libpedsim/src/cuda_agent.cu(91): warning : address of a __shared__ variable "d_blurred_heatmap" cannot be directly taken in a host function
+     1>C:/Users/nego9578/Downloads/CrowdSimulation4/Libpedsim/src/cuda_agent.cu(94): warning : a __shared__ variable "d_blurred_heatmap" cannot be directly read in a host function
+     1>C:/Users/nego9578/Downloads/CrowdSimulation4/Libpedsim/src/cuda_agent.cu(208): warning : a __shared__ variable "d_blurred_heatmap" cannot be directly read in a host function
+         cuda_agent.cu
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\nego9578\Downloads\CrowdSimulation4\x64\timing-release\Libpedsim.lib" /NOLOGO /MACHINE:X64 /LTCG "x64\timing-release\cuda_agent.cu.obj"
+         "x64\timing-release\cuda_testkernel.cu.obj"
+         "x64\timing-release\heatmap_seq.obj"
+         "x64\timing-release\ped_agent.obj"
+         "x64\timing-release\ped_model.obj"
+         "x64\timing-release\ped_vector.obj"
+         "x64\timing-release\ped_waypoint.obj"
+         Libpedsim.vcxproj -> C:\Users\nego9578\Downloads\CrowdSimulation4\x64\timing-release\Libpedsim.lib
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\nego9578\Downloads\CrowdSimulation4\x64\timing-release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\nego9578\Downloads\CrowdSimulation4\x64\timing-release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart*.dll" "C:\Users\nego9578\Downloads\CrowdSimulation4\x64\timing-release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Libpedsim\Libpedsim.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.85

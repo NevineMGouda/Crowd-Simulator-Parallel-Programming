@@ -1,0 +1,20 @@
+﻿Build started 2018-03-05 20:42:17.
+     1>Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Demo\Demo.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"timing-release\Demo\\Demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\x64\timing-release" /LIBPATH:"C:\Progra~1\NVIDIA~2\CUDA\v7.5\lib\x64" /LIBPATH:C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib libpedsim.lib Qt5PlatformSupport.lib "C:\Progra~1\NVIDIA~2\CUDA\v7.5\lib\x64\cudart.lib" C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5OpenGL.lib C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Widgets.lib C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Gui.lib C:\Qt\Qt5.7.0\5.7\msvc2013_64\lib\Qt5Core.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /PDB:"timing-release\Demo\Demo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" release\MainWindow.obj
+         release\ParseScenario.obj
+         release\PedSimulation.obj
+         release\ViewAgent.obj
+         release\main.obj
+         release\moc_ParseScenario.obj
+         release\moc_PedSimulation.obj
+         libpedsim.lib(heatmap_seq.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+            Creating library timing-release\Demo\\Demo.lib and object timing-release\Demo\\Demo.exp
+         Generating code
+         Finished generating code
+         Demo.vcxproj -> C:\Users\nego9578\Downloads\CrowdSimulation4\Demo\timing-release\Demo\Demo.exe
+     1>Done Building Project "C:\Users\nego9578\Downloads\CrowdSimulation4\Demo\Demo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
