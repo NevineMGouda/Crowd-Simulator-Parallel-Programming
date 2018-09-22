@@ -6,6 +6,7 @@ With each update of the world two things happen:
 2. The graphical visualization is updated.
 
 The time that passes for each such update thus decides the frame rate.
+
 The project is done using the following tools and paradigms:
 1. C++
 2. CUDA
